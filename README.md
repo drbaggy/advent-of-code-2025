@@ -19,8 +19,9 @@ Solutions for the 12 days of Christmas puzzles
  Day 11               5                  2  0.535                 670  332,052,564,714,990      20.490
  Day 12               2                  -  0.083                 490                    -       5.250
 
- Running Total                              9.204                                           86,197.148    86,206.352
- Wall clock total                                                                                         87,934.728
+ Running Total                              9.204                                           86,197.148
+ Combined total                                                                             86,206.352
+ Wall clock total                                                                           87,934.728
 
 Times in milliseconds.
 ```
