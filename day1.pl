@@ -6,6 +6,8 @@ use feature qw(say);
 use Data::Dumper qw(Dumper);
 use Time::HiRes qw(time);
 
+## See: https://adventofcode.com/2025/day/1
+
 my( $t0, $t1, $t2 ) = ( time, 0, 0 );
 my $fn = $0 =~ s{([^/]+\.)pl$}{ 'input/'.$1.(@ARGV ? 'test' : 'txt') }er;
 die qq(Missing file "$fn"\n) unless -e $fn;
